@@ -27,7 +27,7 @@ import java.util.Set;
 
 import static java.util.Collections.unmodifiableSet;
 
-public class CloudflareTokenPublisherPluginDescriptor implements EventListenerPluginDescriptor<CloudflareEventListenerConfiguration>
+public final class CloudflareTokenPublisherPluginDescriptor implements EventListenerPluginDescriptor<CloudflareEventListenerConfiguration>
 {
     @Override
     public Class<? extends EventListenerCollection> getEventListenerCollection()

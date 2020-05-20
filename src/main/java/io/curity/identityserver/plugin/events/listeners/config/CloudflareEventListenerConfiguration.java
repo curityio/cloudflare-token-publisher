@@ -34,7 +34,7 @@ public interface CloudflareEventListenerConfiguration extends Configuration
     String getKvNamespace();
 
     @Description("An API token with permissions to write to the KV store")
-    String getAPIToken();
+    String getApiToken();
 
     WebServiceClientFactory getWebServiceClientFactory();
 

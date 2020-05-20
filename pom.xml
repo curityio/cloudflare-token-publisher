@@ -32,6 +32,13 @@
     <artifactId>identityserver.plugins.events.listeners.cloudflare-token-publisher</artifactId>
     <version>1.0.0</version>
     <name>Cloudflare Token Publisher Demo Plugin</name>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,11 +63,13 @@
             <groupId>se.curity.identityserver</groupId>
             <artifactId>identityserver.sdk</artifactId>
             <version>5.1.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.30</version>
+            <version>1.7.22</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
