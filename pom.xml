@@ -30,7 +30,7 @@
 
     <groupId>io.curity.identityserver</groupId>
     <artifactId>identityserver.plugins.events.listeners.cloudflare-token-publisher</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <name>Cloudflare Token Publisher Demo Plugin</name>
     <licenses>
         <license>

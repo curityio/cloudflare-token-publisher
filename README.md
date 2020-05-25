@@ -8,7 +8,7 @@ listening for issued access token events, and forwards them to Cloudflare KV sto
 
 ## Building, installation and configuration
 
-To build the plugin, simply download it and run `mvn package`. This creates `target/identityserver.plugins.events.listeners.cloudflare-token-publisher-1.0.0.jar`.
+To build the plugin, simply download it and run `mvn package`. This creates `target/identityserver.plugins.events.listeners.cloudflare-token-publisher-0.1.0.jar`.
 Create a new folder `cloudflare_token_publisher` in `<idsvr_home>/usr/share/plugins/` then copy the jar to that folder
 and (re)start the Curity Identity Server. Configure a new event listener (shown here using the Admin UI, but might just
 as well be configured through the CLI, REST or XML):
